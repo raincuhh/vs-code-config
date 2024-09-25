@@ -1,0 +1,172 @@
+{
+	// Fonts
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+
+	// Editor Settings
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.cursorBlinking": "phase",
+	"editor.cursorWidth": 1,
+	"editor.minimap.enabled": false,
+	"editor.guides.bracketPairs": "active",
+	"editor.stickyScroll.enabled": false,
+	"editor.lineNumbers": "relative",
+	"editor.guides.indentation": false,
+	"editor.hover.delay": 300,
+	"editor.hover.enabled": true,
+	"editor.matchBrackets": "never",
+	"editor.colorDecorators": true,
+	"editor.renderControlCharacters": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.selectionHighlight": true,
+	"editor.renderWhitespace": "none",
+	"editor.emptySelectionClipboard": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.snippetSuggestions": "top",
+	"breadcrumbs.enabled": false,
+	"breadcrumbs.filePath": "off",
+
+	// Workspace Settings
+	"window.zoomLevel": -1,
+	"workbench.sideBar.location": "right",
+	"workbench.activityBar.location": "hidden",
+	"workbench.colorTheme": "Best Themes - Gruvbox Material Dark",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.tips.enabled": false,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.layoutControl.enabled": false,
+
+	// Git Settings
+	"git.autofetch": true,
+	"git.suggestSmartCommit": false,
+	"git.decorations.enabled": false,
+
+	// CMake Settings
+	"cmake.buildDirectory": "${workspaceFolder}/build/bin",
+	"cmake.cacheInit": "null",
+	"cmake.options.statusBarVisibility": "visible",
+	"cmake.showOptionsMovedNotification": false,
+	"cmake.pinnedCommands": ["workbench.action.tasks.configureTaskRunner", "workbench.action.tasks.runTask"],
+
+	// Code Runner Settings
+	"code-runner.runInTerminal": true,
+	"code-runner.executorMap": {
+		"javascript": "node",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"zig": "zig run",
+		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"php": "php",
+		"python": "python -u",
+		"perl": "perl",
+		"perl6": "perl6",
+		"ruby": "ruby",
+		"go": "go run",
+		"lua": "lua",
+		"groovy": "groovy",
+		"powershell": "powershell -ExecutionPolicy ByPass -File",
+		"bat": "cmd /c",
+		"shellscript": "bash",
+		"fsharp": "fsi",
+		"csharp": "scriptcs",
+		"vbscript": "cscript //Nologo",
+		"typescript": "ts-node",
+		"coffeescript": "coffee",
+		"scala": "scala",
+		"swift": "swift",
+		"julia": "julia",
+		"crystal": "crystal",
+		"ocaml": "ocaml",
+		"r": "Rscript",
+		"applescript": "osascript",
+		"clojure": "lein exec",
+		"haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+		"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+		"racket": "racket",
+		"scheme": "csi -script",
+		"ahk": "autohotkey",
+		"autoit": "autoit3",
+		"dart": "dart",
+		"pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+		"d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+		"haskell": "runghc",
+		"nim": "nim compile --verbosity:0 --hints:off --run",
+		"lisp": "sbcl --script",
+		"kit": "kitc --run",
+		"v": "v run",
+		"sass": "sass --style expanded",
+		"scss": "scss --style expanded",
+		"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+		"FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"sml": "cd $dir && sml $fileName",
+		"mojo": "mojo run",
+		"erlang": "escript",
+		"spwn": "spwn build",
+		"pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+		"gleam": "gleam run -m $fileNameWithoutExt"
+	},
+
+	// Live Server Settings
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+
+	// Custom CSS/JS Loading
+	"vscode_custom_css.imports": ["file:///dev/custom_vscode.css"],
+
+	// Redhat Settings
+	"redhat.telemetry.enabled": true,
+
+	// Additional Settings
+	"explorer.confirmDragAndDrop": false,
+	"githubPullRequests.createOnPublishBranch": "never",
+	"workbench.startupEditor": "none",
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.file.size.humanReadable": false,
+	"vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+	"security.workspace.trust.untrustedFiles": "open",
+	"problems.decorations.enabled": false,
+	"scm.diffDecorations": "overview",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.renderSideBySide": false,
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	},
+	"C_Cpp.default.compilerPath": "",
+	"C_Cpp.inlayHints.parameterNames.enabled": true,
+	"C_Cpp.intelliSenseUpdateDelay": 500,
+	"C_Cpp.autocompleteAddParentheses": true,
+	"window.commandCenter": false,
+	"extensions.experimental.affinity": {
+		"asvetliakov.vscode-neovim": 1
+	},
+	"prettier.printWidth": 110,
+	"prettier.tabWidth": 3,
+	"prettier.enableDebugLogs": true,
+	"prettier.useTabs": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
