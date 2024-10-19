@@ -118,7 +118,10 @@
 	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
 
 	// Custom CSS/JS Loading
-	"vscode_custom_css.imports": ["file:///dev/custom_vscode.css"],
+	"vscode_custom_css.imports": [
+		"file:///Dev/Repos/vs-code-config/vscode_css_config.css",
+		"file:///Dev/Repos/vs-code-config/vscode_js_config.js"
+	],
 
 	// Redhat Settings
 	"redhat.telemetry.enabled": true,
